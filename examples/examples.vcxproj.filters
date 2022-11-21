@@ -19,6 +19,9 @@
     <Filter Include="Source Files\Structuredbinding">
       <UniqueIdentifier>{545806e5-c13f-480c-b83f-df4240fb2201}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\sorting">
+      <UniqueIdentifier>{c031a51b-6a72-485a-aa52-b59f58606d7b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CalculateMean.cpp">
@@ -29,6 +32,9 @@
     </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mergesort.cpp">
+      <Filter>Source Files\sorting</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
