@@ -4,6 +4,5 @@ Release/*
 Debug/*
 x64/*
 x86/*
-*.vcxproj*
 */x64/*
 */x86/*
