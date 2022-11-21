@@ -16,10 +16,19 @@
     <Filter Include="Source Files\FoldTemplate">
       <UniqueIdentifier>{1840273b-d9a3-4938-adf7-f356124b03ab}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Structuredbinding">
+      <UniqueIdentifier>{545806e5-c13f-480c-b83f-df4240fb2201}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CalculateMean.cpp">
       <Filter>Source Files\FoldTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="structurebinding.cpp">
+      <Filter>Source Files\Structuredbinding</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

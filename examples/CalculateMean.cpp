@@ -9,6 +9,6 @@ auto calmean(T ... ts) {
 }
 
 
-int main() {
+void testMean() {
 	std::cout << calmean(5,5,15,15,5,5) << std::endl;
 }
