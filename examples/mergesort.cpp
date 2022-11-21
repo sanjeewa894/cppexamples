@@ -10,14 +10,7 @@ void printArray(T A[], int start, int end)
 
     std::cout << std::endl;
 }
-
-template <typename T>
-void swap(T& first, T& second) {
-    T temp = first;
-    first = second;
-    second = temp;
-}
-
+ 
 template <typename T>
 void mergeInPlace(T array[], int left, int mid, int right) {
     //no need to sort if end of first array and begining of 2nd array are sorted
